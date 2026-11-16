@@ -35,22 +35,5 @@ public class ProyectoFinalPoo {
         GestionReportes gestionReportes = new GestionReportes(
                 almacenamientoReserva, almacenamientoJugador, gestionReserva.getComprobantes());
         GestionAcceso gestionAcceso = new GestionAcceso(almacenamientoEmpleado);
-
-        VentanaPrincipal ventana = new VentanaPrincipal(
-                almacenamientoEmpleado,
-                almacenamientoCancha,
-                almacenamientoJugador,
-                almacenamientoServicio,
-                almacenamientoPaquete,
-                almacenamientoReserva,
-                gestionEmpleado,
-                gestionCancha,
-                gestionJugador,
-                gestionServicio,
-                gestionPaquete,
-                gestionReserva,
-                gestionReportes,
-                gestionAcceso);
-        ventana.setVisible(true);
     }
 }
